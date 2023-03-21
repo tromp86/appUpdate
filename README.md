@@ -1,1 +1,1 @@
-# appUpdateElectron
+# appUpdate
