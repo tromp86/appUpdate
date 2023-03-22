@@ -1,0 +1,37 @@
+{
+  "name": "lesson062",
+  "version": "1.0.2",
+  "description": "my-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron . ",
+    "dew": "electronmon . ",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "my-app",
+    "win": {
+      "target": "nsis",
+      "icon": "./img/logo.ico"
+    },
+    "directories": {
+      "output": "./electron-build"
+    },
+  },
+  "devDependencies": {
+    "electron": "^23.1.4",
+    "electron-builder": "^23.6.0",
+    "electronmon": "^2.0.2"
+  },
+  "dependencies": {
+    "electron-updater": "^5.3.0"
+  },
+  "repository": "https://github.com/tromp86/appUpdate",
+   "publish": {
+    "provider": "github",
+    "releaseType": "release"
+}
+}
