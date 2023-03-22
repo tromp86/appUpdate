@@ -1,0 +1,27 @@
+#btn{
+    padding: 2rem;
+}
+#updateMessage{
+    display: block;
+    position: absolute;
+    top: 1.7%;
+    right: 50%;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: darksalmon;
+    border: 0.1rem solid black;
+    font-size: 1.5rem;
+}
+#updateVersion{
+    display: block;
+    position: absolute;
+    top: 1.7%;
+    right: 30%;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color:darkseagreen;
+    border: 0.1rem solid black;
+    font-size: 1.5rem;
+}
